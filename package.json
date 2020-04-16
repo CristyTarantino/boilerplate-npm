@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "author": "Cristina Tarantino",
   "description": "A boilerplate for the freeCodeCamp curriculum",
+  "keywords": [ "npm", "ffc", "freeCodeCamp", "training" ],
   "main": "server.js",
   "license": "ISC",
   "dependencies": {
