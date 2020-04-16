@@ -36,7 +36,7 @@ app.route('/_api/package.json')
 app.route('/')
   .get(function(req, res) {
     res.sendFile(process.cwd() + '/views/index.html');
-  })
+});
 
 // Respond not found to all the wrong routes
 app.use(function(req, res, next){
@@ -51,7 +51,7 @@ app.use(function(err, req, res, next) {
       .type('txt')
       .send(err.message || 'SERVER ERROR');
   }
-})
+});
 
 app.listen(process.env.PORT, function () {
   console.log('Node.js listening ...');
