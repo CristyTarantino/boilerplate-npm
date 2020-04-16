@@ -3,9 +3,19 @@
   "version": "1.0.0",
   "author": "Cristina Tarantino",
   "description": "A boilerplate for the freeCodeCamp curriculum",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "server.js",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
   },
-  "license": "ISC"
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "12.16.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CristyTarantino/boilerplate-npm.git"
+  }
 }
