@@ -12,7 +12,10 @@
   "main": "server.js",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "fcc-express-bground": "https://github.com/Em-Ant/fcc-express-bground-pkg.git"
   },
   "scripts": {
     "start": "node server.js"
