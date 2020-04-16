@@ -12,8 +12,7 @@
   "main": "server.js",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "moment": "^2.10.2"
+    "express": "^4.17.1"
   },
   "scripts": {
     "start": "node server.js"
